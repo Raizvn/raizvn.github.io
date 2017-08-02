@@ -1,0 +1,160 @@
+* {
+	font-family: 'Roboto';
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+	border: 1px solid rgba(0, 0, 0, .1);
+	margin-top: 10px;
+	min-width: 300px;
+}
+
+.background-img {
+	background-image: url(./img/background.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.height-50pc {
+	height: 50%;
+}
+
+.height-120 {
+	height: 120px;
+}
+
+.height-200 {
+	height: 200px;
+}
+
+.height-400 {
+	height: 400px;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.pd-10 {
+	padding: 10px;
+}
+
+.border-top-1 {
+	border-top: 1px solid rgba(0, 0, 0, .05);
+}
+
+.border-bot-1 {
+	border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.width-90pc {
+	width: 90%;
+}
+
+.width-100pc {
+	width: 100%;
+}
+
+.font-size-24 {
+	font-size: 24px;
+}
+
+.font-size-32 {
+	font-size: 32px;
+}
+
+.avatar-img {
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	margin-top: -50px;
+	border-radius: 50%;
+	background-image: url(./img/quanpd.png);
+	background-position: center;
+}
+
+.margin-0-auto {
+	margin: 0 auto;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-10 {
+	width: 83.34%;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.display-flex {
+	display: flex;
+}
+
+.line-height {
+	line-height: 1.5;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+#description div {
+	text-align: center;
+	padding: 5px 0;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.ellipse-border-img {
+	border-radius: 20px;
+	width: 100%;
+	height: 50px;
+	border: 1px solid #b0bec5;
+	display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.ellipse-img {
+	border-radius: 20px;
+	width: 60%;
+	height: 50px;
+	background: #b0bec5;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 90%;
+	}
+	.skill {
+		display: block;
+		width: 80%;
+	}
+	#skill-container {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.container {
+		width: 100%;
+	}
+	.skill {
+		display: block;
+		width: 90%;
+	}
+	#skill-container {
+		display: block;
+	}
+}
